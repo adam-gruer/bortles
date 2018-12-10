@@ -9,3 +9,6 @@ fork()
 \description{
 Holy shirtballs, display a gif
 }
+\examples{
+fork()
+}
