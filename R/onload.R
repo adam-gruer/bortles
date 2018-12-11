@@ -13,5 +13,7 @@
 }
 
 pkg_gif_paths <- function(){
-  list.files(system.file("gifs", package = "bortles"))
+  pkg_gif_dir <- system.file("gifs", package = "bortles")
+  gif_files <- list.files(pkg_gif_dir, pattern = ".+\\.gif$")
+  fs::path(pkg_gif_dir, gif_files)
 }
