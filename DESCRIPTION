@@ -2,13 +2,14 @@ Package: bortles
 Title: Display A Random Good Place Gif In The Rstudio Viewer
 Version: 0.0.0.9000
 Authors@R: person("Adam", "Gruer", email = "adamgruer@icloud.com", role = c("aut", "cre"))
-Description: Display random The Good Place gifs
+Description: Display random The Good Place gifs.
 Depends: R (>= 3.5.1)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
 Imports: 
-    fs
+    fs,
+    rstudioapi
 Suggests: 
     testthat
