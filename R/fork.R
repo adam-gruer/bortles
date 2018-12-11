@@ -9,7 +9,7 @@ fork <- function(){
   gif_files <- fs::path(gif_temp, gif_files)
 
 
-  gif <- gif_files[sample(seq_along(gif_files),1)]
+  gif <- sample(gif_files, 1)
   rstudioapi::viewer(gif)
 }
 
