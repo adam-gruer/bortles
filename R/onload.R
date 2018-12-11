@@ -11,3 +11,7 @@
             dir,
             overwrite = TRUE)
 }
+
+pkg_gif_paths <- function(){
+  list.files(system.file(package = "bortles"))
+}
