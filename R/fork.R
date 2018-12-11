@@ -1,19 +1,16 @@
-
 #' fork
 #'
 #' Holy shirtballs, display a gif
-#' @return
 #' @export
-#'
-#' @examples
-#' fork()
 fork <- function(){
+  gif_temp <- fs::path(tempdir(), "bortles_gifs")
 
-gif <- sample(1:7,1)
-rstudioapi::viewer(paste0(bortles_temp_dir2341,"/","fork",gif,".gif"))
+  gif_files <- list.files(gif_temp, pattern = ".+\\.gif$")
+  gif_files <- fs::path(gif_temp, gif_files)
 
-#file.remove(file.path(dir, list.files(dir)))
 
+  gif <- gif_files[sample(seq_along(gif_files),1)]
+  rstudioapi::viewer(gif)
 }
 
 
