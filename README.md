@@ -20,4 +20,9 @@ fork()
 
 fork()
 ```
+You can also call fork() at any time without calling `library(bortles)`
+
+``` r
+bortles::fork()
+```
 
