@@ -1,4 +1,4 @@
-[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)   [![Travis build status](https://travis-ci.org/adam-gruer/bortles.svg?branch=master)](https://travis-ci.org/adam-gruer/bortles)
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)   [![Travis build status](https://travis-ci.org/adam-gruer/bortles.svg?branch=master)](https://travis-ci.org/adam-gruer/bortles)  [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/adam-gruer/bortles?branch=master&svg=true)](https://ci.appveyor.com/project/adam-gruer/bortles)    [![Coverage status](https://codecov.io/gh/adam-gruer/bortles/branch/master/graph/badge.svg)](https://codecov.io/github/adam-gruer/bortles?branch=master)
 
 
 
