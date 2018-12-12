@@ -11,8 +11,8 @@
 You can install the development version of `bortles` from [github](https://www.github.com) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("adam-gruer/bortles")
+# install.packages("remotes")
+remotes::install_github("adam-gruer/bortles")
 ```
 Note, installing this package will copy about 10 mb of gif files to your computer at the location returned by this R expression:
 
