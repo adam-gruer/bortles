@@ -36,6 +36,13 @@ You can also call fork() at any time without calling `library(bortles)`
 ``` r
 bortles::fork()
 ```
+Set option to call bortles::fork whenever your code has a forking error.
+Terrific use case courtesy of [John Blischak](https://twitter.com/jdblischak)
+
+``` r
+options(error = bortles::fork)
+log(1 + "a")
+```
 
 ## Add your own gifs
 
